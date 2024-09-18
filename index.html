@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil | DECKER Marina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #fff 3px solid;
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+        }
+
+        header img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar, .content {
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+
+        .sidebar {
+            flex: 1;
+            max-width: 25%;
+        }
+
+        .content {
+            flex: 2;
+            max-width: 70%;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .persoprojet, .conference, .project {
+            margin-bottom: 20px;
+        }
+
+        .persoprojet h3, .conference h3, .project h3 {
+            margin-top: 0;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marina DECKER</h1>
+        <p>Etudiante en Master 2 : Mathématiques, probabilités et statistiques appliquées</p>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="sidebar">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:marina.decker57@gmail.com">marina.decker57@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/marina-decker-2b879419a/">LinkedIn</a></p>
+                <p><a href="https://github.com/marina-decker">GitHub</a></p>
+            </div>
+            <div class="content">
+                <section>
+                    <h2>Projets scolaires</h2>
+                    <div class="project">
+                        <h3><a href="https://github.com/marina-decker/MarinaDecker.github.io/blob/main/Application_de_la_th%C3%A9orie_des_n%C5%93uds_%C3%A0_l'ADN..pdf">Application de la théorie des nœuds à l'ADN. 2023</a></h3>
+                        <p>Ce mémoire examine la théorie des nœuds, un champ de la topologie ayant des applications dans des domaines variés comme l'ADN 
+                            et la cryptographie. Il se concentre sur le polynôme d'Alexander, un invariant de nœuds qui, bien que partiellement utile pour 
+                            la classification, ne permet pas toujours de distinguer tous les nœuds distincts. L'étude met en lumière les limites de cet 
+                            invariant et les défis associés à la recherche d'un invariant complet pour les nœuds.</p>
+                    </div>
+                    <div class="project">
+                        <h3><a href="https://github.com/marina-decker/MarinaDecker.github.io/blob/main/TER_DECKER_MARINA.pdf">Algorithmes à région de confiance pour l'optimisation non linéaire. 2024</a></h3>
+                        <p>Ce mémoire explore les méthodes d'optimisation à région de confiance, qui décomposent des problèmes complexes en sous-problèmes
+                            plus simples pour améliorer la précision des solutions en ajustant dynamiquement la taille de la région de confiance. En 
+                            examinant les principes sous-jacents, les approches pour la recherche du minimum, et en illustrant leur application pratique, 
+                            ce travail vise à démontrer comment ces techniques peuvent améliorer l'efficacité dans divers domaines.</p>
+                        <p>**Projet incluant la gestion du calendrier de projet, l'analyse théorique, et la mise en œuvre pratique, 
+                            tout en assurant la coordination des tâches et le respect des échéances.**</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
